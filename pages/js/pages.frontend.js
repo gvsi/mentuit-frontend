@@ -165,6 +165,7 @@
         });
     }
     Pages.prototype.initTextRotator = function() {
+        console.log("yo");
         var defaults = {
             animation:"flipUp",
             separator:",",
@@ -239,7 +240,7 @@
         this.initAutoImageScroller();
         this.initTextRotator();
         this.initRevealFooter();
-    }
+    };
 
     $.Pages = new Pages();
     $.Pages.Constructor = Pages;
